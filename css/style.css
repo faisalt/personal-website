@@ -68,7 +68,7 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  text-align: center;
+  /*text-align: center;*/
   /*background: #000000;*/
   color: white;
 
@@ -95,10 +95,19 @@ header .intro-text .name {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
+  text-align: center;
+}
+header .intro-text .tagline {
+  font-size: 1.4em;
+  font-weight: 300;
+  text-align: center;
+  display:block;
+  margin-bottom:25px;
 }
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+  text-align: justify;
 }
 @media (min-width: 768px) {
   header .container {
@@ -110,6 +119,9 @@ header .intro-text .skills {
   }
   header .intro-text .skills {
     font-size: 1.75em;
+  }
+  header .intro-text .tagline {
+    font-size: 2em;
   }
 }
 .navbar-custom {
@@ -523,7 +535,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 
-/* My styling. */
+/******* My styling. **********/
+
 .ft-portfolio-link { text-align:center; }
 
 .ft-portfolio-item {
@@ -567,6 +580,7 @@ ul.link-icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
+    text-align: center;
 }
 
 ul.link-icons li {
