@@ -561,7 +561,7 @@ fieldset[disabled] .btn-success.active {
 
 h2.ft-portfolio-title { color:white; margin-bottom:25px; }
 
-p.ft-about { text-align:justify; margin-top:25px;}
+p.ft-about { text-align:left; margin-top:25px;}
 
 #about { text-align:justify; background:#000000; }
 
