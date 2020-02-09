@@ -31,57 +31,126 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="bg-secondary text-white">
+  <header class="ft-header bg-secondary text-white">
     <div class="container text-center">
       <h1>Faisal Taher</h1>
       <p class="lead">Developer | User experience specialist | scientist</p>
     </div>
   </header>
 
-  <section id="about">
+  <section class="ft-portfolio" id="portfolio">
+
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <h2>Portfolio</h2>
-          <p class="lead">Below are projects that I have worked on:</p>
+        <div class="col-lg-10 mx-auto">
 
           <div class="container">
 
-            <div class="ft-portfolio">
-              <div class="row">
-                <div class="col-md-4">
-                  <img class="ft-portfolio__img" src="img/portfolio/projects_lq.png" alt="projects" title="Projects"/>
+            <div class="row">
+
+                
+                <div class="col-md">
+                  <div class="ft-card">
+                    <div class="card">
+                      <div class="ft-card__img" style="background-image: url(/img/portfolio/projects_lq.png); background-position: center center; background-size: cover;">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Projects</h5>
+                        <p class="card-text">A portfolio of projects that I have worked on.</p>
+                        <a href="/projects.html" class="btn btn-primary">See projects</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-8">
-                  <h3 class="ft-portfolio-item-copy">Projects</h3>
+  
+                <div class="col-md">
+                  <div class="ft-card">
+                    <div class="card">
+                      <div class="ft-card__img" style="background-image: url(/img/portfolio/publications_lq.png); background-position: center center; background-size: cover;">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Publications</h5>
+                        <p class="card-text">Conference papers and research articles.</p>
+                        <a href="/publications.html" class="btn btn-primary">See publications</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+
+                <div class="col-md">
+                  <div class="ft-card">
+                    <div class="card">
+                      <div class="ft-card__img" style="background-image: url(/img/portfolio/media.png); background-position: center center; background-size: cover;">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Media coverage</h5>
+                        <p class="card-text">Projects that received media coverage.</p>
+                        <a href="/mediacoverage.html" class="btn btn-primary">See media</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+
             </div>
 
-            <div class="ft-portfolio">
-              <div class="row">
-                <div class="col-md-8">
-                  <h3 class="ft-portfolio-item-copy">Publications</h3>
-                </div>
-                <div class="col-md-4">
-                  <img class="ft-portfolio__img" src="img/portfolio/publications_lq.png" alt="publications" title="Publications"/>
+
+            <div class="row">
+
+                
+              <div class="col-md-4">
+                <div class="ft-card">
+                  <div class="card">
+                    <div class="ft-card__img" style="background-image: url(/img/portfolio/photography_lq.png); background-position: center center; background-size: cover;">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Photography</h5>
+                      <p class="card-text">Photos that I've taken.</p>
+                      <a href="/photography.html" class="btn btn-primary">See photos</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
 
+              <div class="col-md-4">
+                <div class="ft-card">
+                  <div class="card">
+                    <div class="ft-card__img" style="background-image: url(/img/portfolio/drawings_lq.png); background-position: center center; background-size: cover;">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Artwork</h5>
+                      <p class="card-text">Stuff I've drawn over time.</p>
+                      <a href="artwork.html" class="btn btn-primary">See artwork</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="ft-card">
+                  <div class="card">
+                    <div class="ft-card__img" style="background-image: url(/img/portfolio/comics.png); background-position: center center; background-size: cover;">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Comics</h5>
+                      <p class="card-text">Worm comics (don't ask).</p>
+                      <a href="/comics.html" class="btn btn-primary">See comics</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
 
           </div>
 
@@ -90,32 +159,25 @@
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section class="ft-about bg-light" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <div class="col-lg-10 mx-auto">
+          <h2>About</h2>
+          <p class="lead">My professional interests include all things software development. I tend to lean more towards the front-end side of things as I have a natural eye for design and I get to delve in the UX area. I do also enjoy dipping into back-end development, DevOps, and playing with fun tech like Raspberry Pi devices.</p>
+          <p class="lead">Whilst I enjoy designing and writing software applications, I also enjoy designing custom hardware using CAD modelling tools (e.g. Autodesk Fusion 360, Illustrator), and using a 3D printer and laser cutter to fabricate them. I also enjoy experimenting with electronics, for example, one of my projects as a Research Associate at Lancaster University involved constructing different types of actuator prototypes (using electromagnets, Shape-Memory Alloy, hydraulics, etc.).</p>
+          <p class="lead">In my spare time I enjoy photography, playing guitar, going to the gym, cooking, sketching, and if I can get a chance, playing some form of sport.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Faisal Taher 2020</p>
     </div>
     <!-- /.container -->
   </footer>
