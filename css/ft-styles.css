@@ -1,0 +1,12 @@
+.ft-portfolio {
+  margin-top: 2.7rem;
+  padding-bottom: 2.7rem;
+}
+
+.ft-portfolio__img {
+  width: 18rem;
+}
+
+.ft-portfolio-item-copy {
+  font-size: 1.8rem;
+}
