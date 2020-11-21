@@ -2,6 +2,10 @@
   padding: 10rem 0 8rem;
 }
 
+.ft-heading__mid-page {
+  margin-top: 2.1rem;
+}
+
 .ft-header--focussed {
   padding: 7rem 0 4rem;
 }
@@ -37,7 +41,7 @@
 }
 
 .ft-project-img--multiple {
-  margin-top: .9rem;
+  margin-top: 0.9rem;
 }
 
 .ft-project-vid {
@@ -46,14 +50,14 @@
 
 .ft-project-copy,
 .ft-media-item-copy {
-  margin-top: .9rem;
+  margin-top: 0.9rem;
 }
 
 .ft-project-item,
 .ft-comic-item,
 .ft-publications-item,
 .ft-artwork-item,
-.ft-photography-item, 
+.ft-photography-item,
 .ft-media-item {
   padding: 5.4rem 0;
 }
@@ -69,17 +73,17 @@
 }
 
 .ft-publications-item__list {
-  margin-top: .9rem;
+  margin-top: 0.9rem;
 }
 
 .ft-artwork-item__container,
 .ft-photography-item__container {
   -webkit-column-count: 1;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    1;
-  -moz-column-gap:      0px;
-  column-count:         1;
-  column-gap:           0px; 
+  -webkit-column-gap: 0px;
+  -moz-column-count: 1;
+  -moz-column-gap: 0px;
+  column-count: 1;
+  column-gap: 0px;
 }
 
 .ft-artwork-item__img,
@@ -89,12 +93,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   .ft-project-title,
   .ft-media-item-title {
     font-size: 2rem;
   }
-  
+
   .ft-card__img {
     height: 9rem;
   }
@@ -102,27 +105,25 @@
   .ft-artwork-item__container,
   .ft-photography-item__container {
     -webkit-column-count: 2;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    2;
-    -moz-column-gap:      0px;
-    column-count:         2;
-    column-gap:           0px; 
+    -webkit-column-gap: 0px;
+    -moz-column-count: 2;
+    -moz-column-gap: 0px;
+    column-count: 2;
+    column-gap: 0px;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
-
   .ft-artwork-item__container,
   .ft-photography-item__container {
     -webkit-column-count: 3;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    3;
-    -moz-column-gap:      0px;
-    column-count:         3;
-    column-gap:           0px; 
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 0px;
   }
-  
+
   .ft-card__img {
     height: 12rem;
   }
